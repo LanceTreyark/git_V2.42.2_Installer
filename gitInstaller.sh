@@ -2,6 +2,7 @@
 # nano gitInstaller.sh
 # sudo chmod +x gitInstaller.sh
 # ./gitInstaller.sh
+set -o errexit
 echo "The Script is Live"
 sleep 1
 read -p "Press enter to begin the git installer   " derp
