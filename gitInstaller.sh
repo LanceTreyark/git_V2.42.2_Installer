@@ -8,9 +8,9 @@ sleep 1
 read -p "Press enter to begin the git installer   " derp
 echo "updating..."
 sudo apt update && sudo apt upgrade -y
-echo "Installing Snap..."
-sudo apt install snapd -y
-sudo snap install core
+#echo "Installing Snap..."
+#sudo apt install snapd -y
+#sudo snap install core
 echo "Installing Curl..."
 sudo apt install curl -y
 echo "Installing Git..."
